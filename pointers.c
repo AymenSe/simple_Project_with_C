@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 void game();
 
@@ -13,7 +14,7 @@ int main(){
 void game(){
     srand(time(0));
 
-    int s,x;
+    unsigned int s,x;
     printf("enter the size of your array: ");
     scanf("%d", &s);
     printf("\n");
